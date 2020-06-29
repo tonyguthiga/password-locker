@@ -16,7 +16,7 @@ def save_users(user):
 
     user.save_user()
 
-def display_user():
+def display_users():
     '''
     Function to return all the saved users
     '''
@@ -72,11 +72,15 @@ def main():
     print("Hello Welcome to your Password locker!")
     print('\n')
     while True:
-        print("Use these short codes : nu - create a new user account, ln - login to your account, du - display users, ex - exit password locker")
+        print("Use these short codes : nu - create a new user account, ln - login to your account, du - display users, et - exit password locker")
 
         short_code = input().lower()
 
-        if short_code == 'nu':
+        if short_code == "et":
+            print("Thank you for you time, Bye...")
+            break
+
+        elif short_code == "nu":
             print("Sign Up")
             print('-' * 30)
             
@@ -91,6 +95,14 @@ def main():
             print('\n')
             print('-' * 30)
 
+        elif short_code == "du":
+            if display_users():
+                print("List of users:")
+                print('\n')
+                for user in display_users():
+                    print(f"{user.user_name}")
+                    print('\n')
+
         elif short_code == "ln":
             print("Enter your username and password to log in:")
             print('-' * 30)
@@ -102,7 +114,7 @@ def main():
                 print(f"Hello,{user_name} select an option.")
                 while True:
                     print('-' * 60)
-                    short_code = input("Codes: ca - create an account or name of site, da - display the list of your accounts, ex - exit site \n").lower().strip()
+                    short_code = input("Codes: ca - create an account or name of site, dc - display the list of your credentials, ex - exit site \n").lower().strip()
                     print('-' * 60)
                     if short_code == "ca":
                         print("Create new account")
