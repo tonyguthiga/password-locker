@@ -77,10 +77,8 @@ class Credentials:
             if user.user_name == user_name and user.password == password:
                 return True
             return False 
-@classmethod
-def generate_password():
-    chars =string.ascii_letters + string.digits + string.punctuation
-
-    gen_pass = ''.join(random.choice(chars) for _ in range(8))
-
-    return gen_pass
+    @classmethod
+    def generate_password(size = 8,char = string.ascii_letters + string.digits + string.punctuation):
+        
+        gen_pass = "".join(random.choice(char) for _ in range(8))
+        return gen_pass
