@@ -6,7 +6,7 @@ Password-Locker
 
 This is an application that allows users to generate and store passwords for multiple accounts.
 
-## Setup/Installation Requirements:
+## Installation Requirements:
 * Application requires python 3.6.
 * Clone the repo git clone https://github.com/tonyguthiga/password-locker
 * Navigate into the directory cd password-locker
