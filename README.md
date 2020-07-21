@@ -9,7 +9,7 @@ This is an application that allows users to generate and store passwords for mul
 ## Setup/Installation Requirements:
 * Application requires python 3.6.
 * Clone the repo git clone https://github.com/tonyguthiga/password-locker
-* Navigate into the directory cd /password-locker
+* Navigate into the directory cd password-locker
 * Run the application python3.6 run.py
 
 ## Behaviour Driven development:
