@@ -1,18 +1,18 @@
-# Title
+# Title:
 
 Password-Locker
 
-## Project Description
+## Project Description:
 
 This is an application that allows users to generate and store passwords for multiple accounts.
 
-## Setup/Installation Requirements
-Application requires python 3.6.
-Clone the repo git clone https://github.com/tonyguthiga/password-locker
-Navigate into the directory cd /password-locker
-Run the application python3.6 run.py
+## Setup/Installation Requirements:
+* Application requires python 3.6.
+* Clone the repo git clone https://github.com/tonyguthiga/password-locker
+* Navigate into the directory cd /password-locker
+* Run the application python3.6 run.py
 
-## Behaviour Driven development
+## Behaviour Driven development:
 The  application allows users to:
   * Create a user account.
   * Login to an existing account.
@@ -20,7 +20,7 @@ The  application allows users to:
   * Generate or enter a password.
   * Exit the application.
 
-## Setup Instruction
+## Setup Instruction:
 * To create an account, the user has to login by inputting user name and password.
 * Store users' login credentials.
 * Automatically generate a password if user chooses that option.
@@ -28,7 +28,7 @@ The  application allows users to:
  ## Technologies used:
   * Python
 
-## License
+## License:
 
 MIT License
 
@@ -40,10 +40,10 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Author
+## Author:
 
 Antony Guthiga
 
-## Contact Detail
+## Contact Detail:
 
 tonyguthiga93@gmail.com
