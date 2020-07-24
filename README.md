@@ -12,8 +12,8 @@ This is an application that allows users to generate and store passwords for mul
 * Navigate into the directory cd password-locker
 * Run the application python3.6 run.py
 
-Run Tests & Coverage
-Tests
+## Run Tests & Coverage
+   Tests
 
 python -m unittest discover\
 Coverage
